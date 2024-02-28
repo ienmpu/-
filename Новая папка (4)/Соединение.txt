@@ -1,0 +1,18 @@
+<?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "database";
+
+// Подключение к базе данных
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Проверка подключения
+if ($conn->connect_error) {
+    die("Ошибка подключения к базе данных: " . $conn->connect_error);
+}
+echo "Подключение к базе данных успешно";
+
+// Закрытие соединения
+$conn->close();
+?>
