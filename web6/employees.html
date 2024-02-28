@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>B-Clinic Главная</title>
+    <link rel="stylesheet" href="employees_style.css" />
+  </head>
+  <body>
+    <nav class="header">
+      <div class="header-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="main_page.html">Главная</a></li>
+              <li><a href="Prices.html">Услуги</a></li>
+              <li><a href="about_us.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li><a href="employees.html">Хирурги</a></li>
+              <li><a href="feedback.html">Отзывы</a></li>
+          </ul>
+          <h1 class="logo">B-Clinic</h1>
+      </div>
+  </nav>
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title" id="home">Пластические хирурги</h1>
+        <p>Те кто дарят вам красоту!</p>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <article>
+          <figure><img class="card-image" src="sources/docs/1.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Дубко <br> Антон Игоревич</h1>
+            <p>Пластический хирург, доктор медицинских наук, член ОПРЭХ 
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              все виды пластических операций, кроме ринопластики</p>
+          </div>
+        </article>
+        <article>
+          <figure><img class="card-image" src="sources/docs/6.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Никольский <br> Сергей Михайлович</h1>
+            <p>Пластический хирург высшей квалификационной категории
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              маммопластика, ринопластика, косметология</p>
+          </div>
+        </article>
+        <article>
+          <figure><img class="card-image" src="sources/docs/3.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Михайлов <br> Арсений Олегович</h1>
+            <p>Пластический хирург, уролог 
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              блефаропластика, интимная пластика, эндоскопический лифтинг, лифтинг лица</p>
+          </div>
+        </article>
+        <article>
+          <figure><img class="card-image" src="sources/docs/4.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Зайцев <br> Фёдор Тимофеевич</h1>
+            <p>Пластический хирург высшей квалификационной категории
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              блефаропластка, фэйслифтинг, косметология</p>
+          </div>
+        </article>
+        <article>
+          <figure><img class="card-image" src="sources/docs/5.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Буров <br> Павел Дмитриевич</h1>
+            <p>Пластический хирург 
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              блефаропластика, маммопластика, липофилинг, нитевой лифтинг</p>
+          </div>
+        </article>
+        <article>
+          <figure><img class="card-image" src="sources/docs/2.png" alt=""></figure>
+          <div class="bottom-card">
+            <h1>Андреев <br> Андрей Маркович</h1>
+            <p>Пластический хирург, кандидат медицинских наук 
+              <br><br><br>
+              <b>Направление деятельности:</b> <br>
+              все виды пластических операций, кроме ринопластики</p>
+          </div>
+    </div>
+  </div>
+    </section>
+    <div id="openModal" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Заявка успешно отправлена</h3>
+            <a href="#close" title="Close" class="close">×</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img src="https://likarni.com/files/node_news/nakopitelynyje-skidki-ot-vip-test.jpg" alt="" />
+        </div>
+        <div class="form-container">
+          <h2>Свяжитесь с нами</h2>
+          <input type="text" placeholder="Ваше имя" minlength="2" pattern="[A-Z][А-Я]" required/>
+          <input type="email" placeholder="Ваша электронная почта" required/>
+          <textarea
+            cols="30"
+            rows="6"
+            placeholder="Ваше сообщение"
+          ></textarea>
+          <a href="#openModal" class="btn btn-primary">Отправить</a>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <h2>B-Clinic &copy; Все права защищены</h2>
+      <p><b>Телефон:</b> +7 (383) 452-70-11</p>
+      <p><b>Адрес:</b> 630005, г. Новосибирск, Красный проспект, д. 35</p>
+      <p><b>E-mail:</b> communication@b-clinic.ru</p>
+    </footer>
+  </body>
